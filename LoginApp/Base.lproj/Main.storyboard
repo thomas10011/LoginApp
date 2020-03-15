@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2oA-8M-PFq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sSq-T0-DWR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="24.666666666666668"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cPN-E7-OkZ">
+                                        <rect key="frame" x="0.0" y="24.666666666666664" width="414" height="81.666666666666686"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apress_logo" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sd2-UR-I0o">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="81.666666666666671"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rDA-pn-4A4">
+                                        <rect key="frame" x="0.0" y="106.33333333333334" width="414" height="32.666666666666657"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jo4-6W-Saw">
+                                        <rect key="frame" x="0.0" y="139" width="414" height="354"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" alignment="center" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="db5-fX-VnK">
+                                                <rect key="frame" x="0.0" y="0.0" width="82.666666666666671" height="354"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U68-ix-Qsb">
+                                                        <rect key="frame" x="26" y="0.0" width="31" height="30"/>
+                                                        <state key="normal" title="姓名">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPM-dD-4gW">
+                                                        <rect key="frame" x="26" y="81" width="31" height="30"/>
+                                                        <state key="normal" title="密码">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7T0-A1-ZMx">
+                                                        <rect key="frame" x="26" y="162" width="31" height="30"/>
+                                                        <state key="normal" title="党员">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfm-gp-skq">
+                                                        <rect key="frame" x="26" y="243" width="31" height="30"/>
+                                                        <state key="normal" title="学历">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7Q-l9-ivA">
+                                                        <rect key="frame" x="0.0" y="324" width="82.666666666666671" height="30"/>
+                                                        <state key="normal" title="智商">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="OkR-xR-tbZ">
+                                                <rect key="frame" x="82.666666666666657" y="0.0" width="310.66666666666674" height="354"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hGj-QG-WFA">
+                                                        <rect key="frame" x="0.0" y="0.0" width="310.66666666666669" height="34.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                        <connections>
+                                                            <action selector="doneInputName:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="hqw-CP-HzG"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input tour password" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3m0-Z3-Pac">
+                                                        <rect key="frame" x="0.0" y="82.333333333333314" width="310.66666666666669" height="34"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
+                                                        <connections>
+                                                            <action selector="downInputPwd:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="S7t-Qx-Nsa"/>
+                                                        </connections>
+                                                    </textField>
+                                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lwS-g4-JO4">
+                                                        <rect key="frame" x="0.0" y="164.33333333333331" width="312.66666666666669" height="31.333333333333343"/>
+                                                    </switch>
+                                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zs8-7i-SJc">
+                                                        <rect key="frame" x="0.0" y="243.66666666666669" width="310.66666666666669" height="32"/>
+                                                        <segments>
+                                                            <segment title="高中"/>
+                                                            <segment title="本科"/>
+                                                            <segment title="硕士"/>
+                                                            <segment title="博士"/>
+                                                        </segments>
+                                                    </segmentedControl>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xlg-OB-ldB">
+                                                        <rect key="frame" x="0.0" y="322.66666666666669" width="310.66666666666669" height="31.333333333333314"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdR-Vr-IrX">
+                                                                <rect key="frame" x="0.0" y="0.0" width="62.333333333333336" height="31.333333333333332"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="300" translatesAutoresizingMaskIntoConstraints="NO" id="3dg-8o-QQB">
+                                                                <rect key="frame" x="60.333333333333329" y="0.0" width="252.33333333333337" height="32.333333333333329"/>
+                                                                <connections>
+                                                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="xsW-c1-F6r"/>
+                                                                </connections>
+                                                            </slider>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="3dg-8o-QQB" firstAttribute="width" secondItem="xlg-OB-ldB" secondAttribute="width" multiplier="0.8" id="Qch-M8-hfI"/>
+                                                            <constraint firstItem="VdR-Vr-IrX" firstAttribute="width" secondItem="xlg-OB-ldB" secondAttribute="width" multiplier="0.2" id="RGt-WQ-reC"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wWc-gn-RWW">
+                                                <rect key="frame" x="393.33333333333331" y="0.0" width="20.666666666666686" height="354"/>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="wWc-gn-RWW" firstAttribute="width" secondItem="Jo4-6W-Saw" secondAttribute="width" multiplier="0.05" id="I7S-yW-b0k"/>
+                                            <constraint firstItem="OkR-xR-tbZ" firstAttribute="width" secondItem="Jo4-6W-Saw" secondAttribute="width" multiplier="0.75" id="Rsi-9e-8f9"/>
+                                            <constraint firstItem="db5-fX-VnK" firstAttribute="width" secondItem="Jo4-6W-Saw" secondAttribute="width" multiplier="0.2" id="va4-5H-ehm"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2o2-9k-bFS">
+                                        <rect key="frame" x="0.0" y="493" width="414" height="325"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cC-BD-MJW">
+                                                <rect key="frame" x="188.66666666666666" y="52" width="37" height="38"/>
+                                                <state key="normal" title="确定" backgroundImage="whiteButton">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <state key="highlighted" backgroundImage="blueButton"/>
+                                                <connections>
+                                                    <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5U-Px-Ko6"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="9cC-BD-MJW" firstAttribute="centerX" secondItem="2o2-9k-bFS" secondAttribute="centerX" id="M7n-Nz-UuJ"/>
+                                            <constraint firstItem="9cC-BD-MJW" firstAttribute="top" secondItem="2o2-9k-bFS" secondAttribute="top" constant="52" id="qT2-Iq-hMs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sSq-T0-DWR" firstAttribute="height" secondItem="2oA-8M-PFq" secondAttribute="height" multiplier="0.03" id="MTM-jQ-Yyz"/>
+                                    <constraint firstItem="rDA-pn-4A4" firstAttribute="height" secondItem="2oA-8M-PFq" secondAttribute="height" multiplier="0.04" id="kJ0-Tm-wji"/>
+                                    <constraint firstItem="cPN-E7-OkZ" firstAttribute="height" secondItem="2oA-8M-PFq" secondAttribute="height" multiplier="0.1" id="wVA-fG-zPG"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2oA-8M-PFq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="39h-9E-k4i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2oA-8M-PFq" secondAttribute="bottom" id="ICq-Rd-iig"/>
+                            <constraint firstItem="2oA-8M-PFq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ndu-JE-ROh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2oA-8M-PFq" secondAttribute="trailing" id="q7O-GQ-qmh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8GJ-hg-sUO" appends="YES" id="ZCt-gF-WBq"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="LblCMPSwitch" destination="lwS-g4-JO4" id="Sb9-Ds-fXQ"/>
+                        <outlet property="educarionSeg" destination="zs8-7i-SJc" id="plp-sP-2xe"/>
+                        <outlet property="nameLbl" destination="hGj-QG-WFA" id="ca1-Qz-lP6"/>
+                        <outlet property="pwdLabl" destination="3m0-Z3-Pac" id="MuK-7q-raQ"/>
+                        <outlet property="sliderLbl" destination="VdR-Vr-IrX" id="fWp-XJ-Dgf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8GJ-hg-sUO">
+                    <connections>
+                        <action selector="taped:" destination="BYZ-38-t0r" id="5PY-Xh-Drh"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="apress_logo" width="172" height="80"/>
+        <image name="blueButton" width="29" height="40"/>
+        <image name="whiteButton" width="29" height="38"/>
+    </resources>
+</document>
